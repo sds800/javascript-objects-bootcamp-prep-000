@@ -5,3 +5,7 @@ var playlist = {
 function updateObjectWithObject(targetObject, updatesObject) {
   return Object.assign({}, targetObject, updatesObject)
 }
+
+function removeFromPlaylist(){
+  
+}
