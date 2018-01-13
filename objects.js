@@ -2,6 +2,6 @@ var playlist = {
   artistnames: "song titles"
 };
 
-function updatePlaylist{
-  
+function updateObjectWithObject(targetObject, updatesObject) {
+  return Object.assign({}, targetObject, updatesObject)
 }
