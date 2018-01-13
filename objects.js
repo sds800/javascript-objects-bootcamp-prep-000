@@ -2,7 +2,7 @@ var playlist = {
   artistName: "song titles"
 };
 
-function updatePlaylist(playlist, 'artistName', 'songtitle') {
+function updatePlaylist(playlist, 'Phil Ochs', 'songtitle') {
   return playlist
   
 }
