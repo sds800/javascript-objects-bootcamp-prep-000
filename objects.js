@@ -9,9 +9,9 @@ function updatePlaylist(playlist, artistName, songTitle ) {
   return playlist
 }
 
-function removeFromPlaylist(){
+function removeFromPlaylist(playlist, artistName){
   
-  playlist ['Kanye'] = "Gold Digger"
+  delete playlist.Kanye;
   
   return playlist
 }
